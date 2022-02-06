@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
+import { BubbleChartComponent } from './charts/bubble-chart/bubble-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarChartComponent
+    BarChartComponent,
+    BubbleChartComponent
   ],
   imports: [
     BrowserModule,
