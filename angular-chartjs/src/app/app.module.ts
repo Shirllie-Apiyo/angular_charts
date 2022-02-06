@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
 import { BubbleChartComponent } from './charts/bubble-chart/bubble-chart.component';
+import { LineChartComponent } from './charts/line-chart/line-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarChartComponent,
-    BubbleChartComponent
+    BubbleChartComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
